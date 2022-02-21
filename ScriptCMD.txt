@@ -1,2 +1,8 @@
-java --module-path "lib\java fx\win\openjfx-11_windows-x64_bin-sdk\javafx-sdk-11\lib" --add-modules javafx.controls,javafx.base,javafx.graphics -jar sdMap.jar
+windows
+java --module-path "lib\java fx\win\lib" --add-modules javafx.controls,javafx.base,javafx.graphics -jar sdMap.jar
+linux 
+java --module-path "lib/java fx/linux/lib" --add-modules javafx.controls,javafx.base,javafx.graphics -jar sdMap.jar
+macOs
+java --module-path "lib/java fx/os/lib" --add-modules javafx.controls,javafx.base,javafx.graphics -jar sdMap.jar
+
 
